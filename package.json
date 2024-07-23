@@ -1,0 +1,14 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Node.js 18 application",
+  "scripts": {
+    "start": "node index.js",
+    "build:dev": "echo 'Building in dev mode'",
+    "build:prod": "echo 'Building in prod mode'",
+    "start": "serve -s dist/${ENV} -l 5000"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
